@@ -1,0 +1,74 @@
+body {
+    /* background-color: black; */
+}
+
+#condi-1 {
+    width: 10px;
+    left: 200px;
+    height: auto;
+    background-color: brown;
+    position: absolute;
+    z-index: 2;
+}
+
+#varY {
+    font-size: 3em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fffc;
+    z-index: 2;
+}
+
+.container {
+    width: 100%;
+    height: 500vw;
+    background-color: black;
+    position: relative;
+}
+
+.big-receipt {
+    height: 120vw;
+    position: relative;
+    /* background-color: blueviolet; */
+}
+
+.receipt {
+    text-align: center;
+    position: sticky;
+    top: 10vw;
+    height: 20vw;
+    /* background-color: blue; */
+}
+
+#RC-1 {
+    display: none;
+}
+
+#RC-2 {
+    display: none;
+}
+
+#RC-3 {
+    display: none;
+}
+
+#RC-4 {
+    display: none;
+}
+
+.big-receipt[data-scene="1"] #RC-1 {
+    display: flex;
+}
+
+.big-receipt[data-scene="2"] #RC-2 {
+    display: flex;
+}
+
+.big-receipt[data-scene="3"] #RC-3 {
+    display: flex;
+}
+
+.big-receipt[data-scene="4"] #RC-4 {
+    display: flex;
+}
