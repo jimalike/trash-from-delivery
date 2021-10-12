@@ -3,12 +3,43 @@ body {
 }
 
 #condi-1 {
-    width: 10px;
+    width: 100px;
     left: 200px;
-    height: auto;
-    background-color: brown;
+    height: 100px;
+    /* background-color: red; */
     position: absolute;
     z-index: 2;
+    top: 30vw;
+}
+
+#condi-2 {
+    width: 100px;
+    left: 200px;
+    height: 100px;
+    /* background-color: brown; */
+    position: absolute;
+    z-index: 2;
+    top: 50vw;
+}
+
+#condi-3 {
+    width: 100px;
+    left: 200px;
+    height: 100px;
+    /* background-color: blue; */
+    position: absolute;
+    z-index: 2;
+    top: 70vw;
+}
+
+#condi-4 {
+    width: 100px;
+    left: 200px;
+    height: 100px;
+    /* background-color: salmon; */
+    position: absolute;
+    z-index: 2;
+    top: 0vw;
 }
 
 #varY {
@@ -28,7 +59,7 @@ body {
 }
 
 .big-receipt {
-    height: 120vw;
+    height: 100vw;
     position: relative;
     /* background-color: blueviolet; */
 }
@@ -36,8 +67,9 @@ body {
 .receipt {
     text-align: center;
     position: sticky;
-    top: 10vw;
+    top: 5vw;
     height: 20vw;
+    margin-left: 30vw;
     /* background-color: blue; */
 }
 
