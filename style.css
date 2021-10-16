@@ -1,0 +1,106 @@
+body {
+    /* background-color: black; */
+}
+
+#condi-1 {
+    width: 100px;
+    left: 200px;
+    height: 100px;
+    /* background-color: red; */
+    position: absolute;
+    z-index: 2;
+    top: 30vw;
+}
+
+#condi-2 {
+    width: 100px;
+    left: 200px;
+    height: 100px;
+    /* background-color: brown; */
+    position: absolute;
+    z-index: 2;
+    top: 50vw;
+}
+
+#condi-3 {
+    width: 100px;
+    left: 200px;
+    height: 100px;
+    /* background-color: blue; */
+    position: absolute;
+    z-index: 2;
+    top: 70vw;
+}
+
+#condi-4 {
+    width: 100px;
+    left: 200px;
+    height: 100px;
+    /* background-color: salmon; */
+    position: absolute;
+    z-index: 2;
+    top: 0vw;
+}
+
+#varY {
+    font-size: 3em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fffc;
+    z-index: 2;
+}
+
+.container {
+    width: 100%;
+    height: 500vw;
+    background-color: black;
+    position: relative;
+}
+
+.big-receipt {
+    height: 100vw;
+    position: relative;
+    /* background-color: blueviolet; */
+}
+
+.receipt {
+    text-align: center;
+    position: sticky;
+    top: 5vw;
+    height: 20vw;
+    margin-left: 30vw;
+    /* background-color: blue; */
+}
+
+#RC-1 {
+    display: none;
+}
+
+#RC-2 {
+    display: none;
+}
+
+#RC-3 {
+    display: none;
+}
+
+#RC-4 {
+    display: none;
+}
+
+.big-receipt[data-scene="1"] #RC-1 {
+    display: flex;
+}
+
+.big-receipt[data-scene="2"] #RC-2 {
+    display: flex;
+}
+
+.big-receipt[data-scene="3"] #RC-3 {
+    display: flex;
+}
+
+.big-receipt[data-scene="4"] #RC-4 {
+    display: flex;
+}
